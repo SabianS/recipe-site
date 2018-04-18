@@ -1,1 +1,264 @@
-hello
+  @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Libre+Franklin');
+* {
+    box-sizing: border-box;
+}
+
+.clear{
+    clear: both;
+}
+
+hr {
+	background-color: #686150;
+	height: 2px;
+	margin: 50px 0;
+	border: none;
+}
+/*Text Styles*/
+h1 {
+	color: #686150;
+	text-transform: uppercase;
+	letter-spacing: .4em;
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+}
+
+h2 {
+	color: #686150;
+	text-transform: uppercase;
+	letter-spacing: .4em;
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	margin: 0 0 20px 0;
+}
+
+h4 {
+	font-family: "Libre Baskerville", serif;
+	font-size: 22px;
+	line-height: 36px;
+	margin: 0 0 20px 0;
+}
+
+p {
+	color: #686150;
+	font-family: "Libre Baskerville", serif;
+	font-size: 18px;
+	line-height: 36px;
+	margin: 0 0 20px 0;
+}
+
+/*Header*/
+header {
+	margin-top: -50px;
+}
+
+.logo{
+    position: relative;
+    z-index: 20;
+    top: 70px;
+    left: 5%;
+    width: 95%;
+}
+
+.logo img{
+    max-width: 100px;
+    width: 100%;
+}
+
+.main-nav{    
+    text-align: right;
+    background-color: #686150;
+    padding-right: 5%;
+    width: 100%;
+
+}
+
+.main-nav li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 13px 4%;
+    margin:0 30px 0 10px;
+    font-size: 11px;
+    font-family: 'Libre Franklin', sans-serif;
+    letter-spacing: .6em;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 50;
+}
+
+.main-nav li a {
+	color: #f4f1bb;
+	text-decoration: none;
+	transition: all ease .33s;
+	position: relative;
+}
+
+.main-nav li a.current {
+	color: #fff;
+}
+
+.main-nav li a:hover {
+	cursor: pointer;
+	color: #fff;
+}
+
+/*Top Section */
+.top {
+	padding: 50px 0;
+}
+.top img {
+	max-width: 350px;
+	margin: 50px auto 0 auto;
+}
+
+/*History Section */
+.history {
+	background-color: #686150;
+	padding: 75px 0;
+}
+
+.history h2, .history p {
+	color: #f4f1bb;
+}
+
+/*recipe*/
+section.ingredients{
+	margin-top: 50px;
+}
+
+.recipe .container {
+	background-color: #f0f0f0;
+	padding: 50px 0;
+}
+
+.recipe-step {
+	margin: 50px 0;
+}
+
+.step-number{
+	font-family: "Libre Baskerville", serif;
+	font-weight: 800;
+	font-size: 150px;
+	color: #fff;
+}
+.step-text {
+	margin-left: -3%;
+}
+.step-text p {
+	margin: 0;
+}
+.recipe-step img{
+	width: 100%;
+	outline:1px solid white;
+	outline-offset: -30px;
+}
+
+.recipe-top-image {
+	border-radius: 50%;
+	width: 200px;
+	position: relative;
+	top: -125px;
+	float: right; 
+	right: -5px;
+}
+
+.line{
+	height: 50px;
+	border-top: 2px solid #686150;
+	border-bottom: 2px solid #686150;
+	margin-top: 100px;
+
+}
+
+.ingredients-list ul {
+	margin: 0;
+	padding-left: 20px;
+}
+
+.ingredients-list li {
+	margin-bottom: 20px;
+	padding: 0;
+	font-size: 18px;
+	font-family: 'Libre Franklin', sans-serif;
+	color: #686150;
+}
+
+.video-wrap {
+	background: url(../img/hello.png)no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	position: absolute;
+}
+section.testimonials{
+	padding: 75px 0;
+	margin-top: 100vh;
+	background-color: #fff;
+}
+
+.testimonial-wrap {
+	margin-bottom: 50px;
+}
+
+.testimonial-wrap img {
+	float: left;
+	width: 250px;
+	position: relative;
+	top: -20px;
+	left: -80px;
+}
+
+.testimonial-wrap img.right {
+	float: right;
+	left: initial;
+	right: -80px;
+}
+
+.testimonial-wrap .test-content {
+	background-color: #686150;
+	padding: 20px;
+}
+.test-content h4, .test-content p {
+	color: #f4f1bb;
+	font-family: "Libre Baskerville", serif;
+}
+.test-content p {
+	margin: 0;
+}
+.stars {
+	margin-top: 20px;
+}
+
+.main-content {
+	padding: 75px 0;
+}
+
+.main-content img {
+	width: 100%;
+	margin: 25px 0;
+
+}
+
+.trigger {
+	position: relative;
+}
+
+.trigger button {
+	position: absolute;
+	top: 40%;
+	left: 42%;
+	z-index: 20;
+	border: none;
+	-webkit-appearance: none;
+	padding: 20px 25px;
+	background-color: transparent;
+}
+
+.trigger button:hover {
+	cursor: pointer;
+}
+
+.modal-dialog {
+	width: 80%;
+	max-width: 1000px;
+}
